@@ -56,3 +56,5 @@ async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="localhost", port=8000)
+
+    # test auto version bump
