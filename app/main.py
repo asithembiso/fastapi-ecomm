@@ -46,7 +46,7 @@ class Item(BaseModel):
 
 @app.put(
     "/items/{item_id}",
-    description=Path("app/api_docs/put_items_itemid.md").read_text(),
+    description=Path("api_docs/put_items_itemid.md").read_text(),
     summary="Put Item",
 )
 async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
