@@ -1,0 +1,12 @@
+fastapi
+sqlalchemy
+python-dotenv
+uvicorn
+black
+flake8
+isort
+mypy
+diff-cover
+pre-commit
+pytest
+python-semantic-release
