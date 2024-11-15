@@ -10,10 +10,10 @@ black:
 mypy:
 	$(PYTHON) -m mypy . --exclude '.venv/'
 
-#flake8:
-#	$(PYTHON) -m flake8 . --exclude=.venv/
+flake8:
+	$(PYTHON) -m flake8 . --exclude=.venv/
 
-lint: isort black mypy
+lint: isort black mypy flake8
 
 test:  ## Run tests
 	$(PYTHON) -m pytest
