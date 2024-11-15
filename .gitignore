@@ -1,0 +1,3 @@
+app/.env
+.venv/
+.pre-commit-config.yaml

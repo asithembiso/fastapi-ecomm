@@ -9,4 +9,4 @@ mypy
 diff-cover
 pre-commit
 pytest
-python-semantic-release
+commitizen
