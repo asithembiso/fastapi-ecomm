@@ -1,3 +1,9 @@
+## 0.2.0 (2024-11-16)
+
+### Feat
+
+- **main.yml**: resolve github token secret
+
 ## 0.1.0 (2024-11-16)
 
 ### Feat
