@@ -46,7 +46,7 @@ class Item(BaseModel):
 
 @app.put(
     "/items/{item_id}",
-    description=Path("api_docs/put_items_itemid.md").read_text(),
+    description=Path("app/api_docs/put_items_itemid.md").read_text(),
     summary="Put Item",
 )
 async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
@@ -56,3 +56,6 @@ async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="localhost", port=8000)
+
+    # test auto version bump
+    # d
